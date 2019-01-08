@@ -1,0 +1,388 @@
+body {
+	background-image: url("../images/anima_layout6.png");
+	background-repeat: no-repeat;
+	background-size: 34%;
+	/*background-color: #cccccc;*/
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.logoCentro img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%; /*65%*/
+	margin-top: 37%;
+}
+.folha{
+	margin-top: 20%;
+	position: relative;
+	left: 6%;
+}
+.icones img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/*left: 151px;*/
+	width: 40px;
+
+}
+.insta{
+	padding-left: 44%;
+}
+.face{
+	padding-right: 44%;
+}
+@media only screen and (max-width: 1920px) {
+	body{
+		/*background-position: -11% 11px;*/
+		background-size: 39%;
+	}
+	.icones img{
+		/*left: 187px;*/
+		bottom: -10px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 900px)
+and (max-device-width: 1440px)
+and (orientation:landscape){
+	body{
+		background-position: -12% 32px;
+		background-size: 47%;
+	}
+	.logoCentro img{
+		width: 82%;
+		margin-top: 46%;
+	}
+}
+@media only screen and (max-width: 1380px) {
+	body{
+		background-position: -11% 11px;
+		background-size: 43%;
+	}
+	.logoCentro img{
+		width: 74%;
+		margin-top: 43%;
+	}
+	.icones img{
+		/*left: 124px;*/
+		bottom: -10px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation:landscape){
+	body{
+		background-position: -12% 160px;
+		background-size: 47%;
+	}
+	.logoCentro img{
+		width: 90%; /*74*/
+		margin-top: 53%;
+	}
+
+}
+@media only screen and (max-width: 1280px) {
+	body{
+		background-position: -19% 11px;
+		background-size: 51%;
+	}
+	.logoCentro img{
+		width: 85%; /*74*/
+		margin-top: 28%;
+	}
+	.icones img{
+		/*left: 124px;*/
+		bottom: -10px;
+	}
+}
+
+@media only screen 
+and (min-device-width: 800px)
+and (max-device-width: 1280px)
+and (orientation:landscape){
+	body{
+		background-position: -12% 119px;
+		background-size: 48%;
+
+	}
+	.logoCentro img{
+		width: 68%;
+		margin-top: 46%;
+	}
+}
+@media only screen 
+and (min-device-width: 900px)
+and (max-device-width: 1280px)
+and (orientation:landscape){
+	body{
+		background-position: -12% 32px;
+		background-size: 47%;
+	}
+	.logoCentro img{
+		width: 68%;
+		margin-top: 46%;
+	}
+}
+@media only screen and (max-width: 1199px){
+	.icones  img{
+		/*left: 463px;*/
+		bottom: -10px;
+
+	}
+}
+@media only screen and (max-width: 1054px) {
+	body{
+		background-position: -22% 11px;
+		background-size: 52%;
+	}
+	.logoCentro img{
+		width: 77%;
+		margin-top: 50%;
+	}
+	.icones img{
+		/*left: 428px;*/
+		bottom: -10px;
+	}
+}
+@media only screen 
+and (min-device-width: 864px)
+and (max-device-width: 1024px)
+and (orientation:landscape){
+	body{
+		background-position: -19% 153px;
+		background-size: 51%;
+	}
+	.logoCentro img{
+		width: 88%;
+		margin-top: 67%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	body{
+		background-position: -19% 77px;
+		background-size: 52%;
+	}
+	.logoCentro img {
+		width: 117%;
+		/*margin-top: 55%;*/
+	}
+	.icones img{
+		/*left: 376px;*/
+	}
+}
+
+
+@media only screen and (max-width: 880px) {
+	body{
+		background-position: -49% 74px;
+		background-size: 63%;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	body{
+		background-image: none;
+	}
+	.icones img{
+		left: -17px;
+		bottom: 194px;
+
+	}
+	.logoCentro img{
+		width: 42%;
+		/*margin-top: 55%;*/
+		margin-top: 9%;
+	}
+
+	/*.folha{
+		left: 68%;
+		}*/
+	} 
+	@media only screen 
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px)
+	and (orientation:portrait){
+		body{
+		background-image: none;
+	}
+		.logoCentro img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+			width: 100%;
+			margin-top: 180%;
+		}
+		.icones img {
+			left: -17px;
+			bottom: -404px;
+		}
+	}
+
+@media only screen 
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation:portrait){
+	body{
+		background-image: none;
+	}
+	.logoCentro img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		margin-top: 180%;
+	}
+	.icones img {
+		left: 22px;
+		bottom: -558px;
+		width: 63px;
+	}
+	.insta {
+		padding-left: 31%;
+
+	}
+	.face {
+		padding-left: 0%;
+
+	}
+}
+	@media only screen and (max-width: 600px) {
+		body{
+			background-image: none;
+		}
+		.icones img{
+			left: 1px;
+			bottom: 172px;
+		}
+		.logoCentro img{
+			margin-top: 25%;
+			width: 40%;
+		}
+		.insta {
+			padding-left: 37%;
+
+		}
+
+		.folha{
+			left: 53%;
+		}
+
+	}
+
+
+	@media only screen and (max-width: 550px) {
+
+		.logoCentro img{
+			/*margin-top: 25%;*/
+			width: 48%; /*68*/
+		}
+
+	}
+	@media only screen and (max-width: 450px) {
+		.icones img{
+			/*left: 0px;*/
+			bottom: 144px;
+			width: 30px;
+		}
+		.logoCentro img{
+			width: 68%;
+			margin-top: 71px;
+		}
+
+	}
+	@media only screen and (max-width: 360px) {
+		.icones img{
+			/*left: 0px;*/
+			bottom: 144px;
+			width: 30px;
+		}
+
+		.logoCentro img{
+			width: 68%;
+			margin-top: 67px;
+		}
+	}
+	@media only screen and (max-width: 310px) {
+		.icones img{
+			/*left: 0px;*/
+			bottom: 137px;
+		}
+	}
+	/*Iphone 4 Atrapalhou a versão ipad*/
+
+/*@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio:1.5){
+	.logoCentro img{
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		margin-right: -50%;
+		margin-top: 134px;
+		
+		
+	}
+	.icones img {
+	    /*left: -17px;
+	    bottom: -404px;*/
+	    /*padding-top: 500px;
+    	left:82px;
+    	width: 38px;
+	}
+	.folha{
+		padding-top: 139%;
+	}
+	}*/
+
+
+	@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px){
+		.logoCentro img{
+			position: absolute;
+			top: 50%;
+			left: 45%;
+			margin-right: -50%;
+			margin-top: 134px;
+
+
+		}
+		.icones img {
+	    /*left: -17px;
+	    bottom: -404px;*/
+	    /*padding-top: 500px;*/
+	    left:82px;
+	    width: 38px;
+	}
+	.folha{
+		padding-top: 139%;
+	}
+}
+@media only screen and (max-width: 280px) {
+	.insta {
+		padding-left: 69px;
+	}
+	.face{
+		padding-right: 90px;
+	}
+	.icones img{
+		/*left: 0px;*/
+		bottom: 137px;
+	}
+	.folha{
+		left: 41%;
+	}
+}

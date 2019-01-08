@@ -1,0 +1,829 @@
+/*Cores: #00a7a2
+#0bcdc0 ->use this*/
+html{
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background-image: url("../images/RCM_landing_fundo.png");
+	background-repeat: no-repeat;
+	background-position: 0% 34%; /*20,70*/
+	background-size: cover;
+	border: 24px solid white;
+	/*background-size: 34%;
+	background-color: #cccccc;
+	overflow-y: hidden;
+	overflow-x: hidden;*/
+}
+@font-face {
+	font-family: DINPro-Bold;
+	src: url("../fonts/DINPro-Bold.woff");
+}
+.btn{
+	border-radius: 50px
+}
+.texto1{
+	color: white;
+	font-family: DINPro-Bold;
+	font-size: 16px; /*19*/
+}
+.central{
+	/*margin-top: 4%; /*2*/
+	/*margin-bottom: 4%; /*2*/
+	margin-top: 3%; /*-3*/
+    margin-bottom: 3%;
+}
+.baixar{
+	background-color: #0bcdc0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+}
+.botao{
+	margin-top: 8%; /*4*/
+}
+.icone img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%; /*10*/
+	width: 80%; /*55*/
+}
+.imagesDestaque img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+.logo img{
+	width: 40%;
+}
+.tag img{
+	width: 40%;
+}
+.envio{
+	/*margin-top: 2%;
+	margin-top: 6%;
+	margin-bottom: -4%;*/
+	position: relative;
+    bottom: 23px;
+}
+
+@media only screen and (max-width: 1580px) {
+	.imagesDestaque img{
+		margin-top: 6%;
+	}
+}
+@media only screen and (max-width: 1480px) {
+	.imagesDestaque img{
+		margin-top: 6%;
+	}
+}
+@media only screen and (max-width: 1380px) {
+	.imagesDestaque img{
+		margin-top: 3%;
+	}
+	.central{
+		margin-top: 0%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+	
+	.imagesDestaque {
+    	margin-top: 7%;
+	}
+	.botao {
+    	margin-top: 3%;
+	}
+	.envio {
+   		position: relative;
+    	bottom: -31px;
+	}
+	.baixar{
+		margin-top: 7%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	
+	.imagesDestaque {
+    	margin-top: 2%;
+	}
+	.central {
+    	margin-top: 4%;
+    	margin-bottom: -2%;
+	}
+	.icone img{
+		/*width: 30%;*/
+		margin-top: 68%;
+		margin-bottom: 23%;
+	}
+	.texto1{
+		font-size: 15px;
+	}
+	.botao {
+    	margin-top: 1%;
+	}
+}
+/*@media only screen 
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation:landscape){
+	.icone img{
+		width: 100%;
+		margin-top: 44%;
+	}
+	.central{
+		margin-top: 5%;
+	}
+	.texto1{
+		font-size: 23px;
+	}
+	.baixar{
+		margin-top: 4%;
+	}
+	
+	.imagesDestaque{
+		margin-top: 10%;
+	}
+}
+@media only screen 
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation:portrait){
+	
+	.logo img{
+		width: 68%;
+	}
+	.tag img{
+		width: 66%;
+	}
+	.imagesDestaque img{
+		margin-top: 26%;
+	}
+	.central{
+		margin-top: 6%;
+	}
+	.texto1{
+		font-size: 28px;
+	}
+	.icone img{
+		width: 58%;
+	}
+	.baixar{
+		margin-top: 5%;
+	}
+	.botao{
+		margin-top: 6%;
+	}
+}*/
+@media only screen and (max-width: 1000px) {
+	body{
+		background-color: #000;
+	}
+	.logo img{
+		width: 55%;
+	}
+	.tag img {
+    	width: 55%;
+	}
+	.imagesDestaque img{
+		margin-top: 10%;
+	}
+	.central {
+    	margin-top: 2%;
+    	margin-bottom: -3%;
+	}
+	.botao {
+    	margin-top: 2%;
+    	margin-bottom: 4%;
+	}
+	/*.icone img{
+		width: 33%;
+		margin-top: 6%;
+	}*/
+}
+@media only screen and (max-width: 980px) {
+	body{		
+		background-repeat: no-repeat;
+		background-position: 75% 34%;
+	}
+	.central {
+    	margin-top: 7%;
+    	margin-bottom: 0%;
+	}
+	.icone img {
+    	width: 100%;
+    }
+
+
+}
+/*@media only screen 
+and (min-device-width: 900px)
+and (max-device-width: 1440px)
+and (orientation:landscape){
+	.icone img{
+		width: 73%;
+	}
+	.texto1{
+		font-size: 21px;
+	}
+	.central {
+    	margin-top: 3%;
+    	margin-bottom: 4%;
+	}
+	.botao{
+		margin-top: 7%;
+	}
+}*/
+/*@media only screen 
+and (min-device-width: 900px)
+and (max-device-width: 1600px){
+	.icone img{
+		margin-top: 20%;
+	}
+	.central {
+    	margin-top: 4%;
+	}
+}*/
+@media only screen and (max-width: 880px) {
+	body{		
+		background-repeat: no-repeat;
+		background-position: 75% 34%;
+	}
+	.imagesDestaque {
+    	margin-top: 3%;
+	}
+	.icone img {
+    	/*width: 33%;*/
+   		margin-top: 100%;
+	}
+	.central {
+    	margin-top: 5%;
+    	margin-bottom: -3%;
+	}
+}
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+{
+	.logo img {
+    	width: 46%;
+	}
+	.icone img {
+    	margin-top: 65%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	body{		
+		background-repeat: no-repeat;
+		background-position: 75% 34%;
+	}
+	.icone img{
+		/*width: 37%; /*44*/
+		margin-top: 100%;
+	}
+	.imagesDestaque {
+    	margin-top: 3%;
+	}
+	.logo img{
+		width: 50%;
+	}
+	.tag img{
+		width: 50%;
+	}
+	.central {
+    	margin-top: 8%; /*3*/
+    	margin-bottom: -7%; /*-1*/
+	}
+	.texto1{
+		font-size: 14px; /*17*/
+	}
+}
+/*@media only screen 
+and (min-device-width: 800px)
+and (max-device-width: 1280px)
+{
+	.icone img{
+		width: 66%;
+		margin-top: 4%;
+	}
+	.central {
+    margin-top: 8%;
+	}
+	.texto1{
+		font-size: 19px;
+	}
+	.logo img{
+		width: 40%;
+	}
+	.tag img{
+		width: 40%;
+	}
+}
+@media only screen 
+and (min-device-width: 800px)
+and (max-device-width: 1280px)
+and (orientation:landscape){
+	.icone img{
+		width: 66%;
+		margin-top: 4%;
+	}
+	.central {
+    margin-top: 2%;
+	}
+}*/
+@media only screen and (max-width: 768px) {
+	body{
+		background-image: url("../images/RCM_landcelular_fundo.png");
+		background-repeat: no-repeat;
+	}
+	.logo img{
+		width: 26%;
+	}
+	.tag img{
+		width: 26%;
+	}
+	.imagesDestaque{
+		margin-top: -1%; 
+	}
+	.icone img {
+    	width: 72%;
+    	margin-top: 16%;
+	}
+	.texto1 {
+    	font-size: 17px;
+	}
+	.central {
+    	margin-top: 9%;
+   	 	margin-bottom: 12px;
+	}
+	.envio{
+		bottom: 23px;
+	}
+	.baixar {
+    	margin-top: -1%;
+	}
+}
+@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation:portrait){
+	body{
+		background-image: url("../images/RCM_landcelular_fundo.png");
+		background-repeat: no-repeat;
+		border: 15px solid white;
+	}
+	.logo img{
+		width: 60%;
+	}
+	.tag img{
+		width: 60%;
+	}
+	.central{
+		margin-top: 13%;
+		margin-bottom: 2%;
+	}
+	.imagesDestaque img{
+		margin-top: 23%;
+	}
+	.icone img{
+		margin-top: 65%;
+		width: 100%;
+	}
+	.baixar{
+		margin-top: 10%;
+	}
+	.envio {
+    	bottom: -29px;
+	}
+	.texto1 {
+    	font-size: 22px;
+	}
+}
+/*@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation:landscape){
+	
+	.logo img{
+		width: 45%;
+	}
+	.tag img{
+		width: 45%;
+	}
+	.central{
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	.imagesDestaque img{
+		margin-top: 5%;
+	}
+	.icone img{
+		margin-top: 2%;
+		width: 35%;
+	}
+	.botao {
+		margin-top: 2%;
+	}*/
+/*	.esq img{
+		margin-right: 18%;
+	}
+	.dir img{
+		margin-left: 10%;
+		}
+}*/
+
+@media only screen and (max-width: 720px) {
+	body{
+		background-image: url("../images/RCM_landcelular_fundo.png");
+		background-repeat: no-repeat;
+	}
+	.logo img{
+		width: 30%;
+	}
+	.icone img{
+		width: 72%;
+	}
+	.central {
+    	margin-top: 4%;
+    	margin-bottom: -1%;
+	}
+	.botao{
+		margin-top: 8%;
+	}
+}
+@media only screen and (max-width: 680px) {
+	body{
+		background-image: url("../images/RCM_landcelular_fundo.png");
+		background-repeat: no-repeat;
+		background-position: 0% 34%;
+	}
+	.central{
+		margin-top: 5%;
+    	margin-bottom: 9px;
+	}
+	.icone img{
+		width: 72%;
+	}
+	.logo img{
+		width: 30%;
+	}
+	.tag img{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.logo img{
+		width: 32%;
+	}
+	.tag img{
+		width: 32%;
+	}
+	.icone img{
+		width: 72%;
+	}
+	.imagesDestaque img{
+		margin-top: 4%; /*14*/
+	}
+	.texto1{
+		font-size: 15px;
+	}
+	.envio {
+    	position: relative;
+    	
+	}
+}
+/*@media only screen 
+and (min-device-width: 600px)
+and (max-device-width: 1024px)
+and (orientation:portrait){
+	body{
+		
+		background-repeat: no-repeat;
+		background-position: 105% 34%;
+	}
+	.central {
+    	/*margin-top: 4%;
+   		margin-bottom: 3%;
+	*
+   		margin-top: 10%;
+   		margin-bottom: 2%;
+	}
+	.logo img{
+		width: 40%;
+	}
+	.tag img{
+		width: 40%;
+	}
+	.texto1{
+		font-size: 21px;
+	}
+	.icone img{
+		margin-top: 29%;
+		width: 69%; 
+	}
+}
+@media only screen 
+and (min-device-width: 600px)
+and (max-device-width: 1024px)
+and (orientation:landscape){
+	.central {
+    	margin-top: 0%;
+   		margin-bottom: -7%;
+	}
+	.logo img{
+		width: 38%;
+	}
+	.tag img{
+		width: 38%;
+	}
+	.texto1{
+		font-size: 15px;
+	}
+	.icone img {
+    	margin-top: 77%;
+    	width: 100%;
+	}
+	.envio {
+    	position: relative;
+    	bottom: -9px;
+	}
+	.imagesDestaque img {
+    	margin-top: -11%;
+	}
+}*/
+@media only screen and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 500px) {
+	.icone img{
+		width: 83%;
+	}
+	.logo img{
+		width: 41%;
+	}
+	.tag img{
+		width: 41%;
+	}
+	.texto1{
+		font-size: 15px;
+	}
+	.imagesDestaque img{
+		margin-top: 5%; /*18.5*/
+	}
+	.central{
+		margin-top:6%;
+    	margin-bottom: 9px;
+	}
+	.envio {
+    	position: relative;
+    	
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.icone img{
+		margin-top: 36%;
+		width: 100%;
+
+	}
+	.texto1{
+		font-size: 15px;
+	}
+	.central{
+		margin-top: 6%;
+	}
+}
+
+/*@media only screen 
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation:landscape){
+	body{
+		background-color: #000;
+	}
+	.baixar{
+		margin-top: 3%;
+		margin-bottom: 4%;
+	}
+	.logo img{
+		width: 26%;
+	}
+	.tag img{
+		width: 31%;
+	}
+	.imagesDestaque img{
+		margin-top: 5%;
+	}
+	.central {
+    	margin-top: 9%;
+   		margin-bottom: 2%;
+	}
+}*/
+@media only screen and (max-width: 380px) {
+	body{		
+		background-repeat: no-repeat;
+		background-position: 105% 34%;
+	}
+	.icone img {
+    	margin-top: 30%;
+    	width: 101%;
+	}
+	.baixar {
+    	margin-top: 20%;
+	}
+	.envio {
+    	position: relative;
+    	bottom: -33px;
+	}
+	.central {
+    	margin-top: 24%;
+   		margin-bottom: 13%;
+	}
+}
+
+@media only screen
+	and (min-device-width: 360px)
+	and (max-device-width: 640px)
+	and (orientation:portrait){
+	.central {
+    	margin-top: 10%;
+    	margin-bottom: 9%;
+	}
+	.icone img{
+		margin-top: 5%;
+		width: 100%;
+	}
+	.envio {
+    	position: relative;
+    	bottom: 10px;
+	}
+	.baixar {
+    	margin-top: 0%;
+	}
+	.imagesDestaque img{
+		margin-top: 4%;
+	}
+
+}
+@media only screen
+	and (min-device-width: 360px)
+	and (max-device-width: 640px)
+	and (orientation:landscape){
+	body{
+		background-color: #000;
+	}
+	.central {
+    	margin-top: 4%;
+    	margin-bottom: 0%;
+	}
+	.icone img{
+		margin-top: 17%;
+		margin-bottom: -2%;
+	}
+	.logo img{
+		width: 26%;
+	}
+	.imagesDestaque img{
+		margin-top: 4%;
+	}
+	.tag img{
+		width: 31%;
+	}
+	.botao{
+		margin-top: 6%;
+	}
+	.baixar{
+		margin-top: 3%;
+		margin-bottom: 4%;
+	}
+	.envio {
+    	position: relative;
+    	bottom: -2px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.icone img {
+   		margin-top: 29%;
+    	width: 90%;
+	}
+	.tag img{
+		width: 65%;
+	}
+	.logo img{
+		width:50%;
+	}
+}
+/*@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation:portrait){
+	.icone img {
+    	margin-top: 50%;
+    	width: 88%;
+	}
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation:portrait){
+	body{
+		background-image: url("../images/RCM_landcelular_fundo.png");
+		background-repeat: no-repeat;
+		border: 9px solid white;
+		background-color: #000;
+	}
+	.logo img{
+		width: 60%;
+	}
+	.tag img{
+			width: 62%;
+	}
+	.central {
+		margin-top: 16%;
+    	margin-bottom: 17%;
+	}
+
+	.texto1 {
+		color: white;
+		font-family: Din;
+		font-size: 15px;
+	}
+	.botao{
+		margin-top: 15%;
+	}
+	.baixar{
+		margin-top: 8%;
+    	margin-bottom: 8%;
+	}
+	.imagesDestaque img{
+		margin-top: 17%;
+	}*/
+	/*.linha {
+    	border: 4px solid white;
+    	margin-top: -36px;
+	}*/
+	/*.central .linha{
+		border: 4px solid white;
+    	margin-top: 5%;
+	}*/
+	
+/*}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation:landscape){
+	body{
+		
+		background-color: #000;
+	}
+	.logo img{
+		width: 37%;
+	}
+	.tag img{
+			width: 56%;
+	}
+	.central {
+		margin-top: 16%;
+    	margin-bottom: 17%;
+	}
+
+	.texto1 {
+		color: white;
+		font-family: Din;
+		font-size: 15px;
+	}
+	.botao{
+		margin-top: 15%;
+	}
+	.baixar{
+		margin-top: 8%;
+    	margin-bottom: 8%;
+	}
+	.imagesDestaque img{
+		margin-top: 20%;
+	}
+}*/
+
+@media only screen and (max-width: 280px) {
+	body{		
+		background-repeat: no-repeat;
+		background-position: 105% 34%;
+		border: 11px solid white;
+	}
+	.icone img {
+   		margin-top: 29%;
+    	width: 100%;
+	}
+	.tag img{
+		width: 65%;
+	}
+	.logo img{
+		width: 65%;
+	}
+}
